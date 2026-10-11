@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#6f173d">
+<title>For Ananya ♡</title>
+<style>
+:root{--wine:#6f173d;--rose:#f4a6bd;--cream:#fff8f2;--ink:#4a2033}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Georgia,'Times New Roman',serif;background:var(--cream);color:var(--ink)}
+button,a{font:inherit}.topbar{position:sticky;top:0;z-index:20;background:rgba(255,248,242,.92);backdrop-filter:blur(12px);border-bottom:1px solid #f0d7df;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-size:1.05rem;color:var(--wine);font-weight:bold;white-space:nowrap}.nav{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}.nav button{border:0;background:transparent;color:var(--wine);padding:8px 10px;border-radius:20px;cursor:pointer;font-size:.9rem}.nav button:hover,.nav button.active{background:#f8dce5}
+.page{display:none;min-height:calc(100vh - 60px);padding:38px 18px 70px;animation:fade .5s ease}.page.active{display:block}@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.wrap{max-width:900px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:.75rem;color:#a34d70}.hero{text-align:center;padding:36px 10px}.hero h1{font-size:clamp(2.5rem,8vw,5.6rem);line-height:1.03;color:var(--wine);margin:15px 0}.hero p{font-size:1.15rem;line-height:1.8;max-width:620px;margin:18px auto}.heart{color:#c82e62;display:inline-block;animation:pulse 1.3s infinite}@keyframes pulse{50%{transform:scale(1.18)}}.pill{border:0;background:var(--wine);color:white;padding:13px 22px;border-radius:30px;cursor:pointer;box-shadow:0 8px 24px #6f173d22}.pill:hover{transform:translateY(-1px)}.subtle{color:#946477;font-size:.92rem}
+.card{background:white;border:1px solid #f2dce4;border-radius:22px;padding:clamp(20px,5vw,42px);box-shadow:0 18px 50px #6f173d0d}.letter{font-size:1.12rem;line-height:2;white-space:pre-line}.letter h2{text-align:center;color:var(--wine);font-size:2.2rem}.signature{text-align:right;font-style:italic;font-size:1.3rem;color:var(--wine);margin-top:20px}
+.door-stage{display:grid;place-items:center;min-height:58vh}.door{width:min(280px,75vw);height:390px;max-height:55vh;min-height:300px;position:relative;perspective:1000px;cursor:pointer;filter:drop-shadow(0 18px 18px #4a203322)}.door-frame{position:absolute;inset:0;background:#3d142b;border:12px solid #a65a73;border-bottom-width:18px;border-radius:8px 8px 0 0}.door-panel{position:absolute;inset:7px;background:linear-gradient(110deg,#7c274c,#501632);border:2px solid #d39aaa;transform-origin:left;transition:transform 1.2s cubic-bezier(.2,.75,.2,1);z-index:2;border-radius:3px}.door-panel:before,.door-panel:after{content:"";position:absolute;left:12%;right:12%;height:28%;border:2px solid #d9a5b5;border-radius:5px}.door-panel:before{top:9%}.door-panel:after{bottom:9%}.knob{position:absolute;right:13%;top:50%;width:13px;height:13px;border-radius:50%;background:#f7d77d;box-shadow:0 0 0 4px #d8a65d55}.door.open .door-panel{transform:rotateY(-110deg)}.door-message{position:absolute;inset:20px;display:grid;place-items:center;text-align:center;color:#fff0f5;font-size:1.3rem;line-height:1.6;padding:20px}.tree-box{text-align:center}.tree-svg{width:min(100%,520px);height:auto;display:block;margin:0 auto}.tree-caption{font-size:1.1rem;line-height:1.8;max-width:620px;margin:20px auto}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:24px}.photo{aspect-ratio:4/5;border:2px dashed #e5a8bd;border-radius:18px;background:linear-gradient(145deg,#fff,#fde8ef);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:14px;overflow:hidden;position:relative;color:#9b5570}.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}.photo input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}.photo strong{font-size:1.4rem}.photo span{font-size:.85rem;margin-top:8px}.photo.loaded img{display:block}.photo.loaded .placeholder{display:none}.note{background:#fff0f5;padding:15px 18px;border-radius:14px;line-height:1.7;margin-top:20px}
+footer{text-align:center;padding:20px;color:#a16a80;font-size:.85rem}.sparkles{font-size:2rem;letter-spacing:8px;color:#d05d87}
+@media(max-width:560px){.topbar{align-items:flex-start;flex-direction:column}.nav{justify-content:flex-start}.nav button{padding:7px 9px;font-size:.82rem}.page{padding-top:24px}.gallery{gap:9px}.door{height:340px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">♡ For Ananya</div>
+  <nav class="nav" aria-label="Site pages">
+    <button class="active" data-page="home">Home</button><button data-page="letter">Love Letter</button><button data-page="tree">Heart Tree</button><button data-page="photos">Our Photos</button>
+  </nav>
+</header>
+<main>
+<section id="home" class="page active">
+ <div class="wrap hero">
+  <div class="sparkles">✦ ♡ ✦</div><div class="eyebrow">A little corner of the internet, made just for you</div>
+  <h1>I love you,<br><span style="color:#cf527e">Ananya</span> <span class="heart">♥</span></h1>
+  <p>Some feelings are too big for one message, so I made you a little world of my own. Every page has one simple truth written in it: <b>you mean so much to me.</b></p>
+  <button class="pill" onclick="openDoor()">Open your little surprise ♡</button>
+  <div class="door-stage">
+   <div class="door" id="door" onclick="openDoor()" role="button" tabindex="0" aria-label="Open the surprise door">
+    <div class="door-frame"></div><div class="door-message">Behind this door<br>is a little reminder<br>that you are loved ♡</div>
+    <div class="door-panel"><div class="knob"></div></div>
+   </div>
+  </div>
+  <p class="subtle">Tap the door, then explore the pages above. Made with love, just for you.</p>
+ </div>
+</section>
+<section id="letter" class="page">
+ <div class="wrap">
+  <div class="eyebrow">Page one · from my heart</div><h1 style="text-align:center;color:var(--wine);font-size:clamp(2.4rem,7vw,4rem)">A letter for you 💌</h1>
+  <article class="card letter">
+   <h2>My Ananya,</h2>
+   I don't think I could ever fit everything I feel for you into a single letter, but I want to try.
+
+   You have become such a beautiful part of my days. It's not only the big moments that make me love you; it's the little things too — your smile, your way of talking, the random things you tell me, and the comfort of knowing that you're in my life.
+
+   I know I'm not perfect, and sometimes I may not understand what you need straight away. But I want to keep learning you, listening to you, and loving you in the ways that make you feel safe, valued, and understood. Your feelings matter to me, even when I don't have the perfect words.
+
+   If I could give you one thing, it would be the chance to see yourself through my eyes for a moment — so you could understand how special you are to me.
+
+   No fancy promise can replace showing up, being honest, and choosing each other every day. That's the kind of love I want to give you: patient, genuine, and full of little reasons to smile.
+
+   So whenever you have a difficult day, or whenever you simply need a reminder, come back here and remember: somewhere, someone is smiling because you exist.
+
+   <div class="signature">Always yours,<br>Prince ♡</div>
+  </article>
+  <div style="text-align:center;margin-top:24px"><button class="pill" onclick="showPage('tree')">See our heart tree →</button></div>
+ </div>
+</section>
+<section id="tree" class="page">
+ <div class="wrap tree-box">
+  <div class="eyebrow">Page two · growing with you</div><h1 style="color:var(--wine);font-size:clamp(2.3rem,7vw,4rem)">Our little heart tree</h1>
+  <p class="subtle">A love that grows through every season ♡</p>
+  <svg class="tree-svg" viewBox="0 0 520 440" role="img" aria-label="A tree with a heart-shaped pink canopy">
+   <defs><linearGradient id="trunk" x1="0" x2="1"><stop stop-color="#79422e"/><stop offset="1" stop-color="#b87958"/></linearGradient></defs>
+   <path d="M252 390 C265 330 245 290 265 240 C280 208 302 190 318 160 M264 285 C228 250 201 225 184 191 M267 315 C304 278 334 254 351 221 M258 345 C223 326 204 306 187 282" fill="none" stroke="url(#trunk)" stroke-width="19" stroke-linecap="round"/>
+   <path d="M260 400 L250 440 L285 440 L276 399" fill="#8c5137"/>
+   <g fill="#f6a9c1" stroke="#e989aa" stroke-width="1">
+    <circle cx="175" cy="152" r="63"/><circle cx="222" cy="112" r="68"/><circle cx="286" cy="101" r="73"/><circle cx="346" cy="145" r="66"/><circle cx="379" cy="190" r="48"/><circle cx="157" cy="205" r="46"/><circle cx="235" cy="183" r="69"/><circle cx="304" cy="176" r="72"/><circle cx="335" cy="220" r="48"/>
+   </g>
+   <g fill="#fbd2df" opacity=".95"><circle cx="205" cy="78" r="9"/><circle cx="316" cy="69" r="11"/><circle cx="368" cy="142" r="8"/><circle cx="159" cy="168" r="8"/><circle cx="275" cy="135" r="10"/><circle cx="327" cy="201" r="8"/><circle cx="215" cy="208" r="9"/></g>
+   <g fill="#c82e62" font-size="26" text-anchor="middle"><text x="218" y="148">♥</text><text x="287" y="118">♥</text><text x="338" y="169">♥</text><text x="177" y="216">♥</text><text x="283" y="207">♥</text><text x="365" y="210">♥</text></g>
+   <path d="M75 399 Q260 375 445 399" fill="none" stroke="#b5c78b" stroke-width="5" stroke-linecap="round"/>
+   <g fill="#e5a1b9"><path d="M94 397 q-22 -18 -26 0 q18 17 26 0"/><path d="M420 397 q22 -18 26 0 q-18 17 -26 0"/></g>
+  </svg>
+  <p class="tree-caption">May our love be like this tree — rooted in trust, growing with patience, and blooming in a hundred tiny ways. Even on the ordinary days, I want us to keep choosing kindness, laughter, and each other.</p>
+  <button class="pill" onclick="showPage('photos')">Go to our photo page →</button>
+ </div>
+</section>
+<section id="photos" class="page">
+ <div class="wrap">
+  <div class="eyebrow">Page three · little memories</div><h1 style="text-align:center;color:var(--wine);font-size:clamp(2.4rem,7vw,4rem)">Our photo corner 📸</h1>
+  <p style="text-align:center;line-height:1.8">Add your favourite pictures here. Tap any frame to choose a photo from your phone.</p>
+  <div class="gallery">
+   <label class="photo"><img alt="Memory one"><div class="placeholder"><strong>♡ Memory 1</strong><span>Tap to add a photo</span></div><input type="file" accept="image/*" aria-label="Choose first photo" onchange="loadPhoto(this)"></label>
+   <label class="photo"><img alt="Memory two"><div class="placeholder"><strong>♡ Memory 2</strong><span>Tap to add a photo</span></div><input type="file" accept="image/*" aria-label="Choose second photo" onchange="loadPhoto(this)"></label>
+   <label class="photo"><img alt="Memory three"><div class="placeholder"><strong>♡ Memory 3</strong><span>Tap to add a photo</span></div><input type="file" accept="image/*" aria-label="Choose third photo" onchange="loadPhoto(this)"></label>
+   <label class="photo"><img alt="Memory four"><div class="placeholder"><strong>♡ Memory 4</strong><span>Tap to add a photo</span></div><input type="file" accept="image/*" aria-label="Choose fourth photo" onchange="loadPhoto(this)"></label>
+  </div>
+  <div class="note"><b>One more thing, Ananya…</b><br>My favourite memories aren't just the photos we keep. They're the moments that make us laugh for no reason, the conversations that go on too long, and the little things that become special because they're with you. Here's to many more. ♡</div>
+  <p class="subtle" style="text-align:center;margin-top:18px">Note: photos chosen on this page are previewed on your device only. To make them visible to Ananya on the shared website, add the actual image files to the website before publishing.</p>
+ </div>
+</section>
+</main>
+<footer>Made with a full heart, for Ananya ♡ · From Prince</footer>
+<script>
+function showPage(id){document.querySelectorAll('.page').forEach(p=>p.classList.toggle('active',p.id===id));document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===id));window.scrollTo({top:0,behavior:'smooth'});if(id!=='home')document.getElementById('door')?.classList.remove('open')}
+document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',()=>showPage(b.dataset.page)));
+function openDoor(){document.getElementById('door').classList.toggle('open')}
+document.getElementById('door').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openDoor()}});
+function loadPhoto(input){const file=input.files&&input.files[0];if(!file)return;const reader=new FileReader();reader.onload=e=>{const card=input.closest('.photo');card.querySelector('img').src=e.target.result;card.classList.add('loaded')};reader.readAsDataURL(file)}
+</script>
+</body>
+</html>
